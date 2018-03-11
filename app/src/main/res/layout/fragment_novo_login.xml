@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.fiap.a29scjdenisapp.NovoLoginFragment">
+
+    <LinearLayout
+        android:id="@+id/frm_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:layout_below="@id/etLogin"
+            android:id="@+id/etNovoLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_login"/>
+
+        <EditText
+            android:layout_below="@+id/etSenha"
+            android:id="@+id/etNovaSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_senha"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btSalvarLoginNovo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btSalvarUsuario"
+            android:visibility="visible"/>
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</FrameLayout>

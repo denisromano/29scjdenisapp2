@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.fiap.a29scjdenisapp.NovoImovelFragment">
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/frm_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+            <EditText
+                android:id="@+id/etTipoImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tipoImovel"/>
+
+            <EditText
+                android:id="@+id/etLocalizacaoImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nomeLocalizacao"/>
+
+            <EditText
+                android:id="@+id/etTamanhoImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tamanho"/>
+
+            <EditText
+                android:id="@+id/etAnoImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ano"
+                android:inputType="phone"/>
+
+            <EditText
+                android:id="@+id/etValorImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/valor"
+                android:inputType="phone"/>
+
+            <Spinner
+                android:id="@+id/spQuartosImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/quarto"
+                android:prompt="@string/quartos" />
+
+            <Spinner
+                android:id="@+id/spBanheirosImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/banheiro"
+                android:prompt="@string/banheiros" />
+
+            <Button
+                android:id="@+id/btSalvarNovoImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btSalvarImovel"
+                android:visibility="visible"/>
+
+            <!-- Progresso na request -->
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

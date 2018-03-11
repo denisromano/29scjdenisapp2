@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/txt_imoveis">
+        <menu>
+            <item
+                android:id="@+id/novoImovel"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="@string/menu_novoImovel" />
+            <item
+                android:id="@+id/listaImovel"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="@string/listaImoveis" />
+        </menu>
+    </item>
+
+    <item android:title="@string/login_menu">
+        <menu>
+            <item
+                android:id="@+id/novoLogin"
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:title="@string/menu_novoUsuario" />
+            <item
+                android:id="@+id/listaLogin"
+                android:icon="@drawable/ic_people_list_24dp"
+                android:title="@string/menu_listarUsuario" />
+        </menu>
+    </item>
+
+    <item android:title="@string/sobre">
+        <menu>
+            <item
+                android:id="@+id/informacoesApp"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/sobre" />
+        </menu>
+    </item>
+</menu>

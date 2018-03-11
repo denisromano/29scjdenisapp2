@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipo">
+        <item>@string/casa</item>
+        <item>@string/apartamento</item>
+    </string-array>
+</resources>

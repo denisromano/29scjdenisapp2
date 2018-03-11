@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.fiap.a29scjdenisapp.LoginListaFragment"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:elevation="0dp"
+        android:paddingBottom="80dp" />
+
+</LinearLayout>

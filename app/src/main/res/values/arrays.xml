@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipo">
+        <item>@string/casa</item>
+        <item>@string/apartamento</item>
+    </string-array>
+    <string-array name="banheiro">
+        <item>@string/num1</item>
+        <item>@string/num2</item>
+        <item>@string/num3</item>
+        <item>@string/num4</item>
+    </string-array>
+    <string-array name="quarto">
+        <item>@string/num1</item>
+        <item>@string/num2</item>
+        <item>@string/num3</item>
+        <item>@string/num4</item>
+    </string-array>
+
+</resources>

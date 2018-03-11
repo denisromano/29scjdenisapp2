@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">29scjdenisapp</string>
+
+    <!-- Login -->
+    <string name="txt_login">Login</string>
+    <string name="hint_login">Informe o Login</string>
+    <string name="txt_senha">Senha</string>
+    <string name="hint_senha">Informe sua senha</string>
+    <string name="botao_login">Conectar</string>
+    <string name="UsuarioSenhaIncorreto">\'Usuario\' e(ou) \'senha\' estao incorretos.</string>
+    <string name="campoUsuarioObg">Preencher \'usuario\' obrigatorio!</string>
+    <string name="campoSenhObg">Preencher \'senha\' obrigatorio!</string>
+
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sobre">sobre</string>
+    <string name="inicio">inicio</string>
+    <string name="versao">Versao 1</string>
+    <string name="desenvolvido">Denis Romano</string>
+    <string name="hintLogin">Login</string>
+    <string name="hintSenha">Senha</string>
+    <string name="btSalvarUsuario">Salvar Usuario</string>
+    <string name="salvaLogin">Usuario salvo!!!</string>
+    <string name="errorConexao">Erro ao conectar</string>
+    <string name="filtroListaUsuario">Filtro</string>
+    <string name="menu_novoUsuario">Novo Login</string>
+    <string name="loginNaoEncontrado">Login Nao encontrado</string>
+    <string name="campoLiberado">Editar Campo</string>
+    <string name="loginAtualizado">Login Atualizado!!!</string>
+    <string name="DeletarLogin">Usuario Apagado!!!!</string>
+    <string name="deletarLogin">Usuario Apagado!!!</string>
+    <string name="msgDeletarUsuario">Deseja Deletar?</string>
+    <string name="menu_listarUsuario">Lista Login</string>
+    <string name="btSalvarUsuaro">Salvar Usuario</string>
+    <string name="casa">casa</string>
+    <string name="apartamento">apartamento</string>
+    <string name="nomeLocalizacao">Localizacao</string>
+    <string name="tamanho">tamanho</string>
+    <string name="ano">Ano</string>
+    <string name="valor">Valor</string>
+    <string name="quartos">Quartos</string>
+    <string name="banheiros">Banheiros</string>
+    <string name="btSalvarImovel">Salvar Imovel</string>
+    <string name="imovelSalvo">Imovel Salvo</string>
+    <string name="tipoImovelObg">Tipo Imovel Obrigatorio</string>
+    <string name="localizacaoImovelObg">Localizacao Imovel Obrigatorio</string>
+    <string name="tamanhoImovelObg">Tamanho Imovel Obrigatorio</string>
+    <string name="anoImovelObg">Ano Imovel Obrigatorio</string>
+    <string name="valorImovelObg">Valor Imovel Obrigatorio</string>
+    <string name="quartosImovelObg">Quartos Imovel</string>
+    <string name="banheiroImovelObg">Banheiro Obrigatorio</string>
+    <string name="menu_novoImovel">Novo Imovel</string>
+    <string name="tipoImovel">Tipo Imovel</string>
+    <string name="listaImoveis">Lista Imoveis</string>
+    <string name="localizacaoImovel">Localizacao</string>
+    <string name="imovelAtualizado">Imovel Atualizado</string>
+    <string name="errEncontrarImovel">Imovel Nao encontrado</string>
+    <string name="deletarImovel">Apagar Imovel?</string>
+    <string name="msgDeletarImovel">Imovel Apagado</string>
+    <string name="msgDeletarImovelSucess">Imovel Deletado</string>
+    <string name="menu_listaImovel">Lista Imoveis</string>
+    <string name="title_activity_manu_usuario">Alterar Usuario</string>
+    <string name="title_activity_manu_imovel">Alterar Imovel</string>
+    <string name="txt_imoveis">Imoveis</string>
+
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="logout">logout</string>
+    <string name="action_settings">Configuracoes</string>
+    <string name="login_menu">Login</string>
+    <string name="menu_imoveis">imovel</string>
+    <string name="imovel_menu">imovel</string>
+</resources>
